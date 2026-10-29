@@ -15,6 +15,10 @@ explicáveis, escudo que reduz o efeito da trapaça em quem joga limpo e
 banimento manual por máquina. Sem ban automático.
 
 - [Site e teste de 30 dias](https://7dsol3.github.io/konaet-sentinel/)
+- [Central de provas](https://7dsol3.github.io/konaet-sentinel/provas.html) —
+  benchmark, robustez, comparativo de arquitetura e `audit` verificável.
+- [Release 1.2.1](https://github.com/7dsol3/konaet-sentinel/releases/tag/v1.2.1)
+  — pacote trial com `HASHES.txt`; o `audit` recalcula modelo, gates e binário.
 - [Documentos, limites e licença](https://7dsol3.github.io/konaet-sentinel/legal.html)
 - [Benchmark](https://7dsol3.github.io/konaet-sentinel/assets/benchmark.json) e
   [robustez de rede](https://7dsol3.github.io/konaet-sentinel/assets/robustness.json)
