@@ -16,6 +16,9 @@ banimento manual por máquina. Sem ban automático.
 
 - [Site e teste de 30 dias](https://7dsol3.github.io/konaet-sentinel/)
 - [Documentos, limites e licença](https://7dsol3.github.io/konaet-sentinel/legal.html)
+- [Benchmark](https://7dsol3.github.io/konaet-sentinel/assets/benchmark.json) e
+  [robustez de rede](https://7dsol3.github.io/konaet-sentinel/assets/robustness.json)
+  publicados, com o aviso sintético dentro dos arquivos.
 - Código-fonte privado; o pacote público contém apenas executável e documentos.
 
 ## Como trabalho
