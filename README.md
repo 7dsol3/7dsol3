@@ -8,6 +8,11 @@
     <a href="https://konaet-ko-runtime.alkalipixie.chatgpt.site/console">Executar .ko online</a> ·
     <a href="https://wa.me/message/43CXZJ7NW2FPDO">Conversar sobre um projeto</a>
   </p>
+  <p>
+    <a href="https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-QUICKSTART.md">Começar com .ko</a> ·
+    <a href="https://github.com/7dsol3/konaet-sovereign-spec/blob/main/ECOSYSTEM.md">Guia do ecossistema</a> ·
+    <a href="https://github.com/7dsol3/konaet-sovereign-spec/releases/latest">Aplicativo Windows</a>
+  </p>
 </div>
 
 ## Konaet Soberana
@@ -26,10 +31,10 @@ VLOCK, a política participa da validação do evento e do estado da instância.
 
 | Identidade | Papel no sistema |
 |---|---|
-| **SINDRA · SND** | Unidade nativa da gênese VLOCK7SIN, com regras `.ko` e nove casas decimais |
-| **Konaet NAET** | Unidade da aplicação, com saldos e operações no ledger Konaet |
-| **Konaet Work · KWRK** | Unidade de trabalho registrada no ecossistema |
-| **Konaet Actum · KACT** | Unidade ligada à execução contabilizada na aplicação |
+| <img src="assets/snd.svg" width="28" height="28" alt=""> **SINDRA · SND** | Unidade nativa da gênese VLOCK7SIN, com regras `.ko` e nove casas decimais |
+| <img src="assets/naet.svg" width="28" height="28" alt=""> **Konaet NAET** | Unidade da aplicação, com saldos e operações no ledger Konaet |
+| <img src="assets/kwrk.svg" width="28" height="28" alt=""> **Konaet Work · KWRK** | Unidade de trabalho registrada no ecossistema |
+| <img src="assets/kact.svg" width="28" height="28" alt=""> **Konaet Actum · KACT** | Unidade ligada à execução contabilizada na aplicação |
 
 ## Money DNA
 
@@ -61,6 +66,21 @@ flowchart LR
 - **[Konaet Soberana](https://konaet-ko-runtime.alkalipixie.chatgpt.site)** — ecossistema, ativos e tecnologia nativa.
 - **[Console .ko](https://konaet-ko-runtime.alkalipixie.chatgpt.site/console)** — compilação e execução de regras online.
 - **[Konaet Sentinel](https://7dsol3.github.io/konaet-sentinel/)** — ferramentas de segurança para servidores de jogos.
+
+## .ko para criar e executar
+
+| Comece por aqui | O que você encontra |
+|---|---|
+| [Console no navegador](https://konaet-ko-runtime.alkalipixie.chatgpt.site/console) | Editor, contexto, importação e resultado de cada regra |
+| [Seu primeiro projeto .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-QUICKSTART.md) | Fonte e exemplos prontos, compilação e execução local ou online |
+| [Referência da linguagem](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-RUNTIME.md) | Campos, operadores, fases, hashes e API |
+| [Aplicativo Windows](https://github.com/7dsol3/konaet-sovereign-spec/releases/latest/download/Konaet-Console-Windows-x64.zip) | Console e quatro processos validadores de demonstração, com Node incluído |
+
+O fluxo de trabalho permite criar um projeto, compilar a política, conferir
+o artefato e executar os exemplos. O modo online confere se o programa
+retornado pelo servidor corresponde ao hash compilado no pacote.
+
+## Vamos construir
 
 Integrações, aplicações sob medida e pesquisa orientada a produto começam
 com um escopo claro: objetivo, dados, permissões, entregas e operação.
