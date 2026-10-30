@@ -44,22 +44,7 @@ Esse número identifica a capacidade simbólica de referência do Money DNA,
 que organiza observações e compromissos criptográficos. É uma referência
 do modelo, distinta do saldo financeiro, da emissão e da cotação dos ativos.
 
-```mermaid
-flowchart LR
-    P["Política .ko"] --> V["VLOCK7SIN"]
-    S["SINDRA"] --> V
-    V --> E["Estado e histórico"]
-    A["NAET · KWRK · KACT"] --> L["Ledger Konaet"]
-    D["Money DNA"] --> C["Observações e compromissos"]
-    style P fill:#29223f,stroke:#a897ff,color:#eef2ff
-    style V fill:#29223f,stroke:#a897ff,color:#eef2ff
-    style S fill:#29223f,stroke:#a897ff,color:#eef2ff
-    style E fill:#142837,stroke:#5bd9e3,color:#eef2ff
-    style A fill:#142837,stroke:#5bd9e3,color:#eef2ff
-    style L fill:#142837,stroke:#5bd9e3,color:#eef2ff
-    style D fill:#29223f,stroke:#a897ff,color:#eef2ff
-    style C fill:#142837,stroke:#5bd9e3,color:#eef2ff
-```
+![Money DNA: observação, avaliação determinística e compromisso criptográfico.](assets/konaet-money-dna.svg)
 
 ## Projetos e parcerias
 
