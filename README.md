@@ -32,10 +32,15 @@ na sessão do navegador. Exporte os recibos para verificá-los e reproduzi-los
 no Node.js. A distribuição inclui chave cifrada e journal autenticado para
 uso persistente no Node. [Criar seu contrato .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-PROGRAM.md).
 
-Na **gênese v7**, os validadores também executam os contratos `.ko`:
-estado e recibos integram a raiz assinada pelo quórum. O console 1.6.1
+Nas **gêneses v7 e v8**, os validadores também executam os contratos `.ko`:
+estado e recibos integram a raiz assinada pelo quórum. O console 1.7.0
 inicia quatro processos, recupera o WAL e exporta recibos com certificado.
 [Contratos no consenso VLOCK7SIN](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-CONSENSUS.md).
+
+Novas redes v8 reservam cotas de implantação para participantes autorizados.
+A edição também acrescenta recuperação verificada de locks abandonados,
+sincronização por índice e encerramento do console com prazo.
+[Capacidade e recuperação](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/RECOVERY.md).
 
 O verificador permite fixar a gênese da rede e a raiz anterior esperadas,
 obtidas por um canal confiável. Isso distingue um recibo consistente da
