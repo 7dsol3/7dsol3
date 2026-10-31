@@ -33,7 +33,7 @@ no Node.js. A distribuição inclui chave cifrada e journal autenticado para
 uso persistente no Node. [Criar seu contrato .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-PROGRAM.md).
 
 Nas **gêneses v7 e v8**, os validadores também executam os contratos `.ko`:
-estado e recibos integram a raiz assinada pelo quórum. O console 1.7.2
+estado e recibos integram a raiz assinada pelo quórum. O console 1.8.0
 inicia quatro processos, recupera o WAL e exporta recibos com certificado.
 [Contratos no consenso VLOCK7SIN](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-CONSENSUS.md).
 
@@ -42,9 +42,29 @@ compromissos de eventos autorizados, mantendo o documento e seu salt fora
 da cadeia. O SDK confere gênese, contrato, execução, inclusão e quórum.
 [Integrar eventos e conferir recibos](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/SOCIAL-RECEIPTS.md).
 
-A [distribuição 1.7.2](https://github.com/7dsol3/konaet-sovereign-spec/releases/tag/v1.7.2)
+A [distribuição 1.8.0](https://github.com/7dsol3/konaet-sovereign-spec/releases/tag/v1.8.0)
 inclui proveniência Sigstore assinada pela identidade do build, com bundle
 para verificação. A `main` exige pull request e CI Windows/Linux aprovado.
+
+### Konaet Polyglot Receipt Kit
+
+**C · C++ · C# · Python · Rust · Perl · Go · Node.js · Shell**
+
+O mesmo compromisso criptográfico, com todos os seus 256 bits preservados
+em argumentos `.ko`. Nove entradas aprovadas no Linux, com vetores comuns,
+limites de entrada e uma chamada real finalizada em quatro processos por job.
+O verificador Node confere os certificados, que também ficam na distribuição.
+
+| Integração | Recursos |
+|---|---|
+| Nativo | C11 com API pública, C++17 com RAII e Rust com dependências fixadas |
+| Aplicações e serviços | C#, Python, Go, Perl e Node com inteiros exatos |
+| Operação | Shell POSIX para o cliente C; entrada privada via stdin |
+| Especificação | KRP-0001 em Wikitext e TeX, com formato e limites definidos |
+
+[Código e comandos](https://github.com/7dsol3/konaet-sovereign-spec/tree/main/polyglot)
+· [Matriz dos nove jobs](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/polyglot/RESULTS.md)
+· [Resultados reexecutáveis](https://github.com/7dsol3/konaet-sovereign-spec/tree/main/evidence/polyglot-2026-10-31)
 
 Novas redes v8 reservam cotas de implantação para participantes autorizados.
 A edição também acrescenta recuperação verificada de locks abandonados,
