@@ -33,9 +33,13 @@ no Node.js. A distribuição inclui chave cifrada e journal autenticado para
 uso persistente no Node. [Criar seu contrato .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-PROGRAM.md).
 
 Na **gênese v7**, os validadores também executam os contratos `.ko`:
-estado e recibos integram a raiz assinada pelo quórum. O console 1.6.0
+estado e recibos integram a raiz assinada pelo quórum. O console 1.6.1
 inicia quatro processos, recupera o WAL e exporta recibos com certificado.
 [Contratos no consenso VLOCK7SIN](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-CONSENSUS.md).
+
+O verificador permite fixar a gênese da rede e a raiz anterior esperadas,
+obtidas por um canal confiável. Isso distingue um recibo consistente da
+confirmação de que ele pertence à rede escolhida.
 
 A distribuição inclui [gateway para eventos já assinados](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/GATEWAY.md),
 supervisão da malha mTLS, prontidão e [serviço Linux para operadores](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/deploy/validator/README.md).
