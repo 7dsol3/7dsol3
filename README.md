@@ -33,9 +33,15 @@ no Node.js. A distribuição inclui chave cifrada e journal autenticado para
 uso persistente no Node. [Criar seu contrato .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-PROGRAM.md).
 
 Na **gênese v7**, os validadores também executam os contratos `.ko`:
-estado e recibos integram a raiz assinada pelo quórum. O console 1.5.0
+estado e recibos integram a raiz assinada pelo quórum. O console 1.6.0
 inicia quatro processos, recupera o WAL e exporta recibos com certificado.
 [Contratos no consenso VLOCK7SIN](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-CONSENSUS.md).
+
+A distribuição inclui [gateway para eventos já assinados](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/GATEWAY.md),
+supervisão da malha mTLS, prontidão e [serviço Linux para operadores](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/deploy/validator/README.md).
+O teste integra quatro operadores locais, implantação, chamada, quórum e
+recuperação. A operação contínua depende de instalar os serviços nos hosts
+dos operadores.
 
 ![Arquitetura em alto nível: política .ko, validação, VLOCK7SIN e preservação do estado. Money DNA e os ativos possuem identidades próprias.](assets/konaet-architecture.svg)
 
