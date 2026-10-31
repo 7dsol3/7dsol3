@@ -33,7 +33,7 @@ no Node.js. A distribuição inclui chave cifrada e journal autenticado para
 uso persistente no Node. [Criar seu contrato .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-PROGRAM.md).
 
 Nas **gêneses v7 e v8**, os validadores também executam os contratos `.ko`:
-estado e recibos integram a raiz assinada pelo quórum. O console 1.8.0
+estado e recibos integram a raiz assinada pelo quórum. O console 1.8.1
 inicia quatro processos, recupera o WAL e exporta recibos com certificado.
 [Contratos no consenso VLOCK7SIN](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-CONSENSUS.md).
 
@@ -42,9 +42,13 @@ compromissos de eventos autorizados, mantendo o documento e seu salt fora
 da cadeia. O SDK confere gênese, contrato, execução, inclusão e quórum.
 [Integrar eventos e conferir recibos](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/SOCIAL-RECEIPTS.md).
 
-A [distribuição 1.8.0](https://github.com/7dsol3/konaet-sovereign-spec/releases/tag/v1.8.0)
+A [distribuição 1.8.1](https://github.com/7dsol3/konaet-sovereign-spec/releases/tag/v1.8.1)
 inclui proveniência Sigstore assinada pela identidade do build, com bundle
 para verificação. A `main` exige pull request e CI Windows/Linux aprovado.
+
+A revisão 1.8.1 corrige inicialização concorrente do journal e reserva de
+portas dos testes mTLS. Os resultados originais e as regressões ficam no
+[relatório da revisão](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/AUDIT-1.8.1.md).
 
 ### Konaet Polyglot Receipt Kit
 
