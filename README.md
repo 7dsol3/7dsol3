@@ -50,7 +50,6 @@ do modelo, distinta do saldo financeiro, da emissão e da cotação dos ativos.
 
 - **[Konaet Soberana](https://konaet-ko-runtime.alkalipixie.chatgpt.site)** — ecossistema, ativos e tecnologia nativa.
 - **[Console .ko](https://konaet-ko-runtime.alkalipixie.chatgpt.site/console)** — compilação e execução de regras online.
-- **[Konaet Sentinel](https://7dsol3.github.io/konaet-sentinel/)** — ferramentas de segurança para servidores de jogos.
 
 ## .ko para criar e executar
 
@@ -75,63 +74,49 @@ com um escopo claro: objetivo, dados, permissões, entregas e operação.
 Os diagramas apresentam recursos e fluxos de alto nível. Dados de contas,
 chaves e configurações privadas pertencem à operação do sistema.
 
+---
 
-<details>
-<summary>Konaet Sentinel — apresentação e informações do projeto</summary>
+## Konaet Sentinel
 
 <div align="center">
-  <img src="assets/cover.jpg" alt="Konaet — jogo limpo, por engenharia" width="100%">
+  <a href="https://7dsol3.github.io/konaet-sentinel/">
+    <img src="assets/cover.jpg" width="100%" alt="Konaet Sentinel — jogo limpo, por engenharia">
+  </a>
+
+  <p><strong>Anti-cheat comportamental · IA explicável · Controle do operador</strong></p>
+
+  <p>
+    <a href="https://github.com/7dsol3/konaet-sentinel">Repositório Sentinel</a> ·
+    <a href="https://7dsol3.github.io/konaet-sentinel/">Site e teste de 30 dias</a> ·
+    <a href="https://github.com/7dsol3/konaet-sentinel/releases/latest">Versão mais recente</a>
+  </p>
 </div>
 
-### Software independente
+O Konaet Sentinel reúne análise comportamental, regras explicáveis e proteção
+de efeitos em partida para servidores que você opera. O dashboard apresenta
+os casos para revisão; confirmação de trapaça e banimento continuam sob
+controle humano.
 
-Construo anti-cheat, ferramentas de jogo e sistemas que mostram a evidência
-antes de pedir confiança. A estética é calma; a engenharia é verificável.
+| Recurso | Como funciona |
+|---|---|
+| **Análise comportamental** | Sinais e regras ajudam o operador a examinar a telemetria do servidor |
+| **Proteção em partida** | A malha confere condições antes de aplicar efeitos, quando integrada ao servidor |
+| **Memória de casos** | Novos casos exigem confirmação humana e passam por gates antes da ativação |
+| **Dashboard Windows** | Executável com interface, guia de integração e teste de 30 dias |
+| **Verificação do pacote** | Os comandos `prove` e `audit` executam checagens e conferem os arquivos distribuídos |
 
-## Em destaque
+Os perfis precisam de integração com o servidor autorizado. A proteção não
+remove programas do computador do atacante nem equivale a integração oficial
+com anti-cheats dos jogos. Os relatórios identificam os cenários sintéticos e
+as condições dos testes.
 
-**[Konaet Sentinel](https://7dsol3.github.io/konaet-sentinel/)** — anti-cheat
-comportamental para servidores que você opera. Regras físicas, 17 sinais
-explicáveis, escudo que reduz o efeito da trapaça em quem joga limpo e
-banimento manual por máquina. Sem ban automático.
+### Conhecer e usar o Sentinel
 
-- **Memória sob confirmação:** um caso revisado por humano entra no motor em
-  211 ms (mediana), com gates de falso positivo e rollback. O sistema não
-  aprende sozinho; o limite fora de distribuição está publicado.
-- [Site e teste de 30 dias](https://7dsol3.github.io/konaet-sentinel/)
-- [Central de provas](https://7dsol3.github.io/konaet-sentinel/provas.html) —
-  benchmark, robustez, aprendizado confirmado, comparativo de arquitetura e
-  `audit` verificável.
-- [Release 1.3.0](https://github.com/7dsol3/konaet-sentinel/releases/tag/v1.3.0)
-  — pacote trial com `HASHES.txt`; o `audit` recalcula modelo, gates, memória e
-  binário.
-- [Documentos, limites e licença](https://7dsol3.github.io/konaet-sentinel/legal.html)
-- [Benchmark](https://7dsol3.github.io/konaet-sentinel/assets/benchmark.json),
-  [robustez de rede](https://7dsol3.github.io/konaet-sentinel/assets/robustness.json)
-  e [prova de aprendizado](https://7dsol3.github.io/konaet-sentinel/assets/adaptation.json)
-  publicados, com o aviso sintético dentro dos arquivos.
-- Código-fonte privado; o pacote público contém apenas executável e documentos.
+- **[Repositório do projeto](https://github.com/7dsol3/konaet-sentinel)** — apresentação, instruções e arquivos públicos.
+- **[Site e download do teste](https://7dsol3.github.io/konaet-sentinel/)** — pacote Windows e início de uso.
+- **[Central de provas](https://7dsol3.github.io/konaet-sentinel/provas.html)** — relatórios e verificações do motor.
+- **[Documentação e licença](https://7dsol3.github.io/konaet-sentinel/legal.html)** — integração, condições de uso e informações do pacote.
+- **[Contato da Konaet](https://wa.me/message/43CXZJ7NW2FPDO)** — projetos, integração e suporte.
 
-## Como trabalho
-
-**Evidência antes da claim.** Um resultado só existe quando um teste
-reproduzível o sustenta. Dataset sintético é rotulado como sintético.
-
-**Limites declarados.** Nenhum anti-cheat pega todos os cheats. O trial não é
-um DRM inquebrável. O ban por máquina é um hash com decisão humana, não
-atestação de GPU.
-
-**Design sem ruído.** Liquid glass, tipografia editorial e movimento discreto.
-A interface existe para deixar a decisão clara, não para parecer tecnologia.
-
-## Stack
-
-`Python` · `Ed25519` · `SHA-256` · `HTML/CSS` · `Playwright` · `PyInstaller`
-
-## Contato
-
-- Site: <https://7dsol3.github.io/konaet-sentinel/>
-- WhatsApp: [Konaet](https://wa.me/message/43CXZJ7NW2FPDO)
-- Brasil
-
-</details>
+O repositório público do Sentinel apresenta o produto e seus downloads;
+o código-fonte do motor é privado.
