@@ -33,7 +33,7 @@ no Node.js. A distribuição inclui chave cifrada e journal autenticado para
 uso persistente no Node. [Criar seu contrato .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-PROGRAM.md).
 
 Nas **gêneses v7 e v8**, os validadores também executam os contratos `.ko`:
-estado e recibos integram a raiz assinada pelo quórum. O console 1.7.0
+estado e recibos integram a raiz assinada pelo quórum. O console 1.7.1
 inicia quatro processos, recupera o WAL e exporta recibos com certificado.
 [Contratos no consenso VLOCK7SIN](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-CONSENSUS.md).
 
@@ -41,6 +41,14 @@ Novas redes v8 reservam cotas de implantação para participantes autorizados.
 A edição também acrescenta recuperação verificada de locks abandonados,
 sincronização por índice e encerramento do console com prazo.
 [Capacidade e recuperação](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/RECOVERY.md).
+
+**Homologação de uma hora concluída em quatro VMs reais:** 415 transferências,
+138 chamadas `.ko` e 554 fechamentos, com a mesma raiz final. O roteiro
+incluiu perda/retorno de quórum e recuperação após SIGKILL. Os hosts do
+ensaio eram temporários, sob a mesma conta/provedor.
+[Resultados e verificação dos relatos assinados](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/VALIDATION-RESULTS.md).
+
+![Homologação operacional da Konaet: quatro VMs, disponibilidade, fechamentos e memória observada.](https://raw.githubusercontent.com/7dsol3/konaet-sovereign-spec/main/assets/remote-endurance.svg)
 
 O verificador permite fixar a gênese da rede e a raiz anterior esperadas,
 obtidas por um canal confiável. Isso distingue um recibo consistente da
