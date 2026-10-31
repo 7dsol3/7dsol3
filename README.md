@@ -12,6 +12,7 @@
     <a href="https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-QUICKSTART.md">Começar com .ko</a> ·
     <a href="https://github.com/7dsol3/konaet-sovereign-spec/blob/main/ECOSYSTEM.md">Guia do ecossistema</a> ·
     <a href="https://github.com/7dsol3/konaet-sovereign-spec/releases/latest">Aplicativo Windows</a>
+    · <a href="https://7dsol3.github.io/konaet-sovereign-spec/">.ko Studio com estado e assinaturas</a>
   </p>
 </div>
 
@@ -24,6 +25,12 @@ ecossistema em uma mesma visão de produto.
 O console público permite escrever uma política `.ko`, enviar um contexto
 e conferir o resultado das regras executadas no servidor. No perfil v6 do
 VLOCK, a política participa da validação do evento e do estado da instância.
+
+O **[.ko Studio](https://7dsol3.github.io/konaet-sovereign-spec/)** executa
+contratos com funções tipadas, storage, mapas, eventos e chamadas Ed25519
+na sessão do navegador. Exporte os recibos para verificá-los e reproduzi-los
+no Node.js. A distribuição inclui chave cifrada e journal autenticado para
+uso persistente no Node. [Criar seu contrato .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-PROGRAM.md).
 
 ![Arquitetura em alto nível: política .ko, validação, VLOCK7SIN e preservação do estado. Money DNA e os ativos possuem identidades próprias.](assets/konaet-architecture.svg)
 
