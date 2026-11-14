@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Adilson Oliveira — engenharia com assinatura</title>
+  <desc id="desc">Identidade visual do perfil 7dsol3: tipografia forte, marca em vermelho e linhas inspiradas em um painel de áudio.</desc>
+  <defs>
+    <pattern id="rule" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#d9e0dc" stroke-opacity=".055"/></pattern>
+    <clipPath id="clip"><rect width="1400" height="420" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1400" height="420" fill="#101719"/>
+    <rect width="1400" height="420" fill="url(#rule)"/>
+    <path d="M0 39H1400M0 356H1400" stroke="#91aaa3" stroke-opacity=".25"/>
+    <path d="M1055 39V356" stroke="#91aaa3" stroke-opacity=".25"/>
+    <rect x="0" y="39" width="8" height="317" fill="#ec6248"/>
+    <g font-family="Arial,Helvetica,sans-serif">
+      <text x="58" y="78" fill="#e5725a" font-size="13" font-weight="700" letter-spacing="3">7DSOL3  /  ADILSON OLIVEIRA</text>
+      <text x="60" y="190" fill="#f4f4ec" font-size="82" font-weight="800" letter-spacing="-5">ENGENHARIA</text>
+      <text x="60" y="275" fill="#ec6248" font-size="74" font-weight="800" letter-spacing="-5">COM ASSINATURA.</text>
+      <text x="60" y="324" fill="#b8c8c1" font-size="18" letter-spacing="1">Software, sistemas e experiências com identidade própria.</text>
+      <text x="60" y="390" fill="#b1bdb7" font-size="12" font-weight="700" letter-spacing="2">KONAET MUSIC  /  .KO RUNTIME  /  VLOCK7SIN  /  SENTINEL</text>
+      <text x="1100" y="390" fill="#e5725a" font-size="12" font-weight="700" letter-spacing="2">BUILD  /  PLAY  /  PROVE</text>
+    </g>
+    <rect x="1081" y="55" width="294" height="285" rx="13" fill="#bed9d1" fill-opacity=".08" stroke="#d7eee7" stroke-opacity=".45"/>
+    <path d="M1094 72h168M1094 72v125M1359 322h-138" fill="none" stroke="#f5fff9" stroke-opacity=".65" stroke-width="2"/>
+    <path d="M1089 316h280" stroke="#ec6248" stroke-opacity=".5"/>
+    <g transform="translate(1228 197)" fill="none" stroke="#ec6248">
+      <path d="M-112 0C-75-55-38-79 0-79S76-55 112 0C76 55 38 79 0 79S-76 55-112 0Z" stroke-width="7"/>
+      <circle r="41" stroke-width="9"/>
+      <circle r="12" fill="#ec6248" stroke="none"/>
+      <path d="M-104-60l-17-23M-50-97l-6-27M50-97l6-27M104-60l17-23M-104 60l-17 23M-50 97l-6 27M50 97l6 27M104 60l17 23" stroke-width="5" stroke-linecap="square"/>
+    </g>
+    <path d="M1082 309h16v-17h12v17h13v-46h12v46h13v-29h12v29h13v-61h12v61h13v-20h12v20h13v-42h12v42h13v-14h12v14h13v-32h12v32h16" fill="none" stroke="#8aaca0" stroke-opacity=".8" stroke-width="3"/>
+  </g>
+</svg>
