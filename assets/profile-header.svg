@@ -1,33 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
-  <title id="title">Adilson Oliveira — engenharia com assinatura</title>
-  <desc id="desc">Identidade visual do perfil 7dsol3: tipografia forte, marca em vermelho e linhas inspiradas em um painel de áudio.</desc>
-  <defs>
-    <pattern id="rule" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#d9e0dc" stroke-opacity=".055"/></pattern>
-    <clipPath id="clip"><rect width="1400" height="420" rx="10"/></clipPath>
-  </defs>
-  <g clip-path="url(#clip)">
-    <rect width="1400" height="420" fill="#101719"/>
-    <rect width="1400" height="420" fill="url(#rule)"/>
-    <path d="M0 39H1400M0 356H1400" stroke="#91aaa3" stroke-opacity=".25"/>
-    <path d="M1055 39V356" stroke="#91aaa3" stroke-opacity=".25"/>
-    <rect x="0" y="39" width="8" height="317" fill="#ec6248"/>
-    <g font-family="Arial,Helvetica,sans-serif">
-      <text x="58" y="78" fill="#e5725a" font-size="13" font-weight="700" letter-spacing="3">7DSOL3  /  ADILSON OLIVEIRA</text>
-      <text x="60" y="190" fill="#f4f4ec" font-size="82" font-weight="800" letter-spacing="-5">ENGENHARIA</text>
-      <text x="60" y="275" fill="#ec6248" font-size="74" font-weight="800" letter-spacing="-5">COM ASSINATURA.</text>
-      <text x="60" y="324" fill="#b8c8c1" font-size="18" letter-spacing="1">Software, sistemas e experiências com identidade própria.</text>
-      <text x="60" y="390" fill="#b1bdb7" font-size="12" font-weight="700" letter-spacing="2">KONAET MUSIC  /  .KO RUNTIME  /  VLOCK7SIN  /  SENTINEL</text>
-      <text x="1100" y="390" fill="#e5725a" font-size="12" font-weight="700" letter-spacing="2">BUILD  /  PLAY  /  PROVE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="530" viewBox="0 0 1400 530" role="img" aria-labelledby="title desc">
+  <title id="title">7dsol3 — Adilson Oliveira</title>
+  <desc id="desc">Cartaz autoral com tipografia 7dsol3, trilhas de música, código e prova, e uma superfície de controle inspirada em instrumentos de áudio.</desc>
+  <rect width="1400" height="530" fill="#ebe5da"/>
+  <rect x="28" y="27" width="1344" height="476" fill="none" stroke="#35413a" stroke-opacity=".55"/>
+  <path d="M28 82H1372M28 443H1372" stroke="#35413a" stroke-opacity=".4"/>
+  <rect x="28" y="27" width="12" height="55" fill="#d95638"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+    <text font-family="Arial,Helvetica,sans-serif" x="67" y="61" fill="#27332d" font-size="18" font-weight="800" letter-spacing="2">ADILSON OLIVEIRA</text>
+    <text font-family="Arial,Helvetica,sans-serif" x="572" y="60" fill="#68746a" font-size="12" font-weight="700" letter-spacing="2.5">DESENVOLVIMENTO INDEPENDENTE / BRASIL</text>
+    <text x="62" y="269" fill="#18231e" font-family="Arial,Helvetica,sans-serif" font-size="185" font-weight="900" letter-spacing="-14">7dsol3</text>
+    <path d="M67 300H811" stroke="#34443a" stroke-width="2"/>
+    <rect x="67" y="299" width="150" height="4" fill="#d95638"/>
+    <text font-family="Arial,Helvetica,sans-serif" x="69" y="354" fill="#26332c" font-size="37" font-weight="800" letter-spacing="-1">SOM. CÓDIGO. PROVA.</text>
+    <text font-family="Arial,Helvetica,sans-serif" x="70" y="402" fill="#4b5b51" font-size="19">Experiências que você pode abrir, tocar e verificar.</text>
+    <text font-family="Arial,Helvetica,sans-serif" x="67" y="477" fill="#26332c" font-size="15" font-weight="800" letter-spacing="2">01  KONAET MUSIC</text>
+    <text font-family="Arial,Helvetica,sans-serif" x="354" y="477" fill="#26332c" font-size="15" font-weight="800" letter-spacing="2">02  .KO RUNTIME</text>
+    <text font-family="Arial,Helvetica,sans-serif" x="635" y="477" fill="#26332c" font-size="15" font-weight="800" letter-spacing="2">03  SENTINEL</text>
+    <text font-family="Arial,Helvetica,sans-serif" x="1190" y="478" fill="#89988c" font-size="12" font-weight="800" letter-spacing="2">7DSOL3 / 2026</text>
+  </g>
+  <g transform="translate(860 96)">
+    <rect x="0" y="0" width="488" height="328" rx="10" fill="#0b1310" opacity=".25"/>
+    <rect x="5" y="-5" width="478" height="322" rx="9" fill="#1c2823" stroke="#596a5d" stroke-width="2"/>
+    <rect x="23" y="14" width="442" height="207" rx="5" fill="#101c17" stroke="#83968a" stroke-opacity=".5"/>
+    <rect x="23" y="14" width="442" height="207" rx="5" fill="#c9ddd0" fill-opacity=".06"/>
+    <path d="M33 36H350M36 17H464" stroke="#e7f3e7" stroke-opacity=".4"/>
+    <g font-family="Helvetica,Arial,sans-serif" font-weight="700">
+      <text font-family="Arial,Helvetica,sans-serif" x="43" y="50" fill="#c4d8c8" font-size="11" letter-spacing="2">K / CONTROL SURFACE</text>
+      <text font-family="Arial,Helvetica,sans-serif" x="409" y="50" fill="#d95638" font-size="11" letter-spacing="2">LIVE</text>
     </g>
-    <rect x="1081" y="55" width="294" height="285" rx="13" fill="#bed9d1" fill-opacity=".08" stroke="#d7eee7" stroke-opacity=".45"/>
-    <path d="M1094 72h168M1094 72v125M1359 322h-138" fill="none" stroke="#f5fff9" stroke-opacity=".65" stroke-width="2"/>
-    <path d="M1089 316h280" stroke="#ec6248" stroke-opacity=".5"/>
-    <g transform="translate(1228 197)" fill="none" stroke="#ec6248">
-      <path d="M-112 0C-75-55-38-79 0-79S76-55 112 0C76 55 38 79 0 79S-76 55-112 0Z" stroke-width="7"/>
-      <circle r="41" stroke-width="9"/>
-      <circle r="12" fill="#ec6248" stroke="none"/>
-      <path d="M-104-60l-17-23M-50-97l-6-27M50-97l6-27M104-60l17-23M-104 60l-17 23M-50 97l-6 27M50 97l6 27M104 60l17 23" stroke-width="5" stroke-linecap="square"/>
+    <path d="M49 169h37l9-21 13 42 13-70 11 51 13-21 12 18h28" fill="none" stroke="#9db9a1" stroke-opacity=".7" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M300 169h18l9-14 12 29 13-60 11 44 10-18 8 19h40" fill="none" stroke="#9db9a1" stroke-opacity=".7" stroke-width="2" stroke-linejoin="round"/>
+    <g transform="translate(244 143)" fill="none" stroke="#e96d4e" stroke-linecap="round">
+      <path d="M-92 0C-61-43-32-62 0-62S61-43 92 0C61 43 32 62 0 62S-61 43-92 0Z" stroke-width="6"/>
+      <circle r="37" stroke-width="6"/>
+      <circle r="11" fill="#e96d4e" stroke="none"/>
     </g>
-    <path d="M1082 309h16v-17h12v17h13v-46h12v46h13v-29h12v29h13v-61h12v61h13v-20h12v20h13v-42h12v42h13v-14h12v14h13v-32h12v32h16" fill="none" stroke="#8aaca0" stroke-opacity=".8" stroke-width="3"/>
+    <path d="M45 242H443" stroke="#acbaac" stroke-opacity=".38"/>
+    <g font-family="Helvetica,Arial,sans-serif" font-weight="700" text-anchor="middle">
+      <g transform="translate(104 273)"><circle r="25" fill="#070e0a" stroke="#77887b" stroke-width="2"/><circle r="20" fill="#475e51"/><path d="M0-18V-27" stroke="#ec7656" stroke-width="3"/><circle r="5" fill="#111b16"/><text font-family="Arial,Helvetica,sans-serif" x="0" y="43" fill="#c6d0c3" font-size="10" letter-spacing="1">MUSIC</text></g>
+      <g transform="translate(244 273)"><circle r="25" fill="#070e0a" stroke="#77887b" stroke-width="2"/><circle r="20" fill="#475e51"/><path d="M0-18V-27" stroke="#ec7656" stroke-width="3"/><circle r="5" fill="#111b16"/><text font-family="Arial,Helvetica,sans-serif" x="0" y="43" fill="#c6d0c3" font-size="10" letter-spacing="1">.KO</text></g>
+      <g transform="translate(384 273)"><circle r="25" fill="#070e0a" stroke="#77887b" stroke-width="2"/><circle r="20" fill="#475e51"/><path d="M0-18V-27" stroke="#ec7656" stroke-width="3"/><circle r="5" fill="#111b16"/><text font-family="Arial,Helvetica,sans-serif" x="0" y="43" fill="#c6d0c3" font-size="10" letter-spacing="1">SENTINEL</text></g>
+    </g>
+    <circle cx="15" cy="8" r="3" fill="#94a69a"/><circle cx="471" cy="8" r="3" fill="#94a69a"/><circle cx="15" cy="304" r="3" fill="#94a69a"/><circle cx="471" cy="304" r="3" fill="#94a69a"/>
   </g>
 </svg>

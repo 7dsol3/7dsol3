@@ -1,47 +1,38 @@
-<div align="center">
-  <img src="assets/profile-header.svg" width="100%" alt="Adilson Oliveira — engenharia com assinatura. Konaet Music, .ko Runtime, VLOCK7SIN e Sentinel.">
-  <p><strong>Adilson Oliveira</strong> · 7dsol3</p>
-  <p>Crio software, sistemas e experiências digitais que carregam uma identidade reconhecível.</p>
-  <p>
-    <a href="https://7dsol3.github.io/konaet-music/">Abrir KONAET Music ↗</a> &nbsp;·&nbsp;
-    <a href="https://konaet-ko-runtime.alkalipixie.chatgpt.site/">Explorar .ko ↗</a> &nbsp;·&nbsp;
-    <a href="https://wa.me/message/43CXZJ7NW2FPDO">Falar sobre um projeto ↗</a>
-  </p>
-</div>
+<img src="assets/profile-header.svg" width="100%" alt="7dsol3 — Adilson Oliveira. Som, código e prova: KONAET Music, .ko Runtime e Sentinel.">
+
+### Adilson Oliveira · `7dsol3`
+
+Eu construo as interfaces e a máquina por trás delas. Aqui dá para **abrir o produto**, **mexer nos controles** e **conferir como funciona**.
+
+[**Entrar no KONAET Music ↗**](https://7dsol3.github.io/konaet-music/) &nbsp;&nbsp; [**Executar .ko ↗**](https://konaet-ko-runtime.alkalipixie.chatgpt.site/console) &nbsp;&nbsp; [**Conhecer o Sentinel ↗**](https://7dsol3.github.io/konaet-sentinel/)
 
 ---
 
-## 01 / KONAET Music
+### 01 / Tocar — KONAET Music
 
-**Instrumentos, pesquisa e áudio no mesmo espaço.** Uma vitrine de demonstração para explorar o catálogo, comparar especificações e montar uma cotação sem cobrança real. O [Sound Lab](https://7dsol3.github.io/konaet-music/sound-lab/) permite tocar acordes, afinar e analisar áudio localmente, com os limites do experimento à vista.
+Uma loja de instrumentos que também é bancada de experimentação. Você pode filtrar o catálogo, comparar modelos, testar uma cotação de demonstração e abrir o **Sound Lab** para tocar acordes, afinar e examinar áudio no próprio navegador. A aparência tem paletas, materiais e controles que você ajusta e salva localmente.
 
-[Entrar no site](https://7dsol3.github.io/konaet-music/) · [Código e documentação](https://github.com/7dsol3/konaet-music) · [Projeto H-01 de áudio digital](https://github.com/7dsol3/konaet-music/tree/main/hardware/h01-audio)
+[Abrir a experiência](https://7dsol3.github.io/konaet-music/) · [Ir ao Sound Lab](https://7dsol3.github.io/konaet-music/sound-lab/) · [Examinar o código](https://github.com/7dsol3/konaet-music) · [Projeto H-01 de áudio digital](https://github.com/7dsol3/konaet-music/tree/main/hardware/h01-audio)
 
-## 02 / Konaet Soberana
+### 02 / Executar — `.ko` e Konaet Soberana
 
-**Regras `.ko`, estado e recibos verificáveis.** O ecossistema reúne o runtime de contratos, o [.ko Studio](https://7dsol3.github.io/konaet-sovereign-spec/) no navegador e a infraestrutura VLOCK7SIN. A documentação mostra o fluxo completo, dos primeiros comandos às provas de execução.
+Contratos `.ko` passam por uma cadeia que você pode seguir: política, execução, estado e recibo. O console roda contratos no navegador; a especificação e os testes mostram onde cada garantia começa e termina.
 
-[Executar .ko online](https://konaet-ko-runtime.alkalipixie.chatgpt.site/console) · [Começar com .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-QUICKSTART.md) · [Contratos no consenso](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-CONSENSUS.md)
+[Executar .ko online](https://konaet-ko-runtime.alkalipixie.chatgpt.site/console) · [Começar com .ko](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-QUICKSTART.md) · [Ler a arquitetura](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/ECOSYSTEM.md) · [Ver os resultados de validação](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/VALIDATION-RESULTS.md)
 
-## 03 / Konaet Sentinel
+### 03 / Inspecionar — Konaet Sentinel
 
-**Análise comportamental para servidores de jogos.** Sinais e regras ajudam o operador a revisar casos e decidir o que fazer. O site reúne a apresentação, o teste para Windows e a documentação do produto.
+Um sistema de análise comportamental para servidores de jogos. Regras e sinais organizam o caso para revisão; a decisão final continua com o operador. A apresentação e as provas ficam abertas para inspeção.
 
-[Conhecer o Sentinel](https://7dsol3.github.io/konaet-sentinel/) · [Repositório](https://github.com/7dsol3/konaet-sentinel) · [Provas e limites](https://7dsol3.github.io/konaet-sentinel/provas.html)
+[Abrir o Sentinel](https://7dsol3.github.io/konaet-sentinel/) · [Ver o repositório](https://github.com/7dsol3/konaet-sentinel) · [Conferir provas e limites](https://7dsol3.github.io/konaet-sentinel/provas.html)
 
 ---
 
-### A engrenagem fica à vista
-
-No Music, busca, comparação, áudio e cotação fazem parte da mesma experiência; cotação e carteira são demonstrações locais. No `.ko`, especificação, runtime e verificadores acompanham o contrato. No Sentinel, regras e painel mostram o que cabe à análise e o que continua sendo decisão do operador.
-
-**Explorar a fundo:** [guia do ecossistema](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/ECOSYSTEM.md) · [métodos do Sound Lab](https://github.com/7dsol3/konaet-music/blob/main/docs/SOUND-LAB.md) · [relatório VLOCK7SIN](https://github.com/7dsol3/konaet-sovereign-spec/blob/main/VALIDATION-RESULTS.md)
-
-### Contato
-
-Tem uma ideia para construir? [Converse comigo sobre o projeto](https://wa.me/message/43CXZJ7NW2FPDO) ou [conecte-se no LinkedIn](https://www.linkedin.com/in/adilson-oliveira-779490283/).
+**Tem algo para construir junto?** [Converse comigo](https://wa.me/message/43CXZJ7NW2FPDO) ou [me encontre no LinkedIn](https://www.linkedin.com/in/adilson-oliveira-779490283/).
 
 <details>
-  <summary>Arquivo com a documentação e as provas técnicas que estavam neste perfil</summary>
-  <p>O conteúdo anterior foi preservado em <a href="PROFILE-DETAILS.md">PROFILE-DETAILS.md</a>. Os repositórios de cada projeto continuam sendo a fonte das versões e dos testes atuais.</p>
+<summary>Documentação técnica que antes ocupava este perfil</summary>
+
+O conteúdo anterior está preservado em [PROFILE-DETAILS.md](PROFILE-DETAILS.md). Os repositórios de cada produto guardam as versões e os testes atuais.
+
 </details>
