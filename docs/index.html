@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c0e">
+  <meta name="description" content="Adilson Oliveira, 7dsol3. Conheça os projetos Konaet: música, contratos .ko e análise comportamental.">
+  <title>7dsol3 · Adilson Oliveira</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="profile.css">
+  <script src="profile.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#projetos">Ir aos projetos</a>
+  <div class="page-shell">
+    <header class="page-nav">
+      <a class="wordmark" href="#inicio"><span class="wordmark-icon" aria-hidden="true">K</span><span>KONAET <small>/ 7DSOL3</small></span></a>
+      <nav aria-label="Navegação do perfil"><a href="#projetos">Projetos</a><a href="#por-dentro">Por dentro</a><a href="#contato">Contato</a></nav>
+      <a class="github-link" href="https://github.com/7dsol3">GitHub ↗</a>
+    </header>
+
+    <main id="inicio">
+      <section class="profile-cover" aria-labelledby="profile-title">
+        <div class="identity">
+          <p class="eyebrow">ADILSON OLIVEIRA <span>·</span> DESENVOLVIMENTO INDEPENDENTE</p>
+          <h1 id="profile-title">Adilson Oliveira<span class="handle">7dsol3</span></h1>
+          <p class="profile-description">Interfaces que você explora.<br>Sistemas que você pode conferir.</p>
+          <div class="cover-actions"><a class="btn primary" href="#projetos">Explorar projetos <span>↗</span></a><a class="btn" href="https://github.com/7dsol3?tab=repositories">Ver o código <span>↗</span></a></div>
+        </div>
+        <div class="signature">
+          <span class="signature-label">KONAET / IDENTIDADE PRÓPRIA</span>
+          <button class="signature-dial rim" id="signature-light" aria-label="Alternar luz da marca Konaet" aria-pressed="true" type="button">
+            <svg viewBox="0 0 120 120" aria-hidden="true"><path d="M14 60Q60 4 106 60Q60 116 14 60Z"/><circle cx="60" cy="60" r="20"/><circle class="pupil" cx="60" cy="60" r="6"/><path class="lashes" d="m29 23-6-8m37 0V4m31 19 6-8M29 97l-6 8m37 0v11m31-19 6 8"/></svg>
+          </button>
+          <span class="signature-caption">SOFTWARE <i></i> MÚSICA <i></i> SISTEMAS</span>
+        </div>
+        <div class="cover-rail" aria-label="Projetos em destaque">
+          <a href="https://7dsol3.github.io/konaet-music/"><span class="rail-icon" aria-hidden="true">♫</span><span><small>EXPLORAR / TOCAR</small><strong>KONAET Music</strong></span><b aria-hidden="true">↗</b></a>
+          <a href="https://7dsol3.github.io/konaet-sovereign-spec/"><span class="rail-icon mono" aria-hidden="true">.ko</span><span><small>EXECUTAR / VERIFICAR</small><strong>Konaet Soberana</strong></span><b aria-hidden="true">↗</b></a>
+          <a href="https://7dsol3.github.io/konaet-sentinel/"><span class="rail-icon" aria-hidden="true">◎</span><span><small>ANALISAR / REVISAR</small><strong>Konaet Sentinel</strong></span><b aria-hidden="true">↗</b></a>
+        </div>
+      </section>
+
+      <details class="light-controls" id="luz">
+        <summary><span class="control-indicator" aria-hidden="true"></span><span>Ajustar luz e refração</span><small>INTERATIVO</small><span class="expand" aria-hidden="true">+</span></summary>
+        <div class="light-panel">
+          <div><p class="eyebrow">LUZ DA BORDA</p><div class="segmented" role="group" aria-label="Movimento da luz"><button data-light-mode="follow" aria-pressed="true">Seguir cursor</button><button data-light-mode="spin" aria-pressed="false">Girar</button><button data-light-mode="fixed" aria-pressed="false">Fixa</button></div></div>
+          <label class="range-label" for="edge-width"><span>Espessura <output id="edge-width-value">2 px</output></span><input id="edge-width" type="range" min="1" max="4" value="2" step="1"></label>
+          <label class="range-label" for="light-glow"><span>Brilho <output id="light-glow-value">45%</output></span><input id="light-glow" type="range" min="0" max="100" value="45" step="1"></label>
+          <button class="btn reset-light" id="reset-light">Restaurar</button><p class="control-status" id="light-status" role="status">Preferências salvas só neste navegador.</p>
+        </div>
+      </details>
+
+      <section id="projetos" class="projects-section" aria-labelledby="projects-title">
+        <div class="section-heading"><div><p class="eyebrow">DO VISUAL À EXECUÇÃO</p><h2 id="projects-title">Abra. Explore. Confira.</h2></div><p>Cada projeto tem sua própria interface,<br>código e documentação.</p></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card-top"><span class="project-symbol rim" aria-hidden="true">♫</span><span class="project-category">MÚSICA / WEB AUDIO</span></div>
+            <h3>KONAET Music</h3><p>Explore instrumentos, compare modelos e prepare uma cotação de demonstração. No Sound Lab, toque acordes, afine e analise áudio localmente.</p>
+            <div class="project-tags"><span>Catálogo</span><span>Sound Lab</span><span>Vidro líquido</span></div>
+            <div class="project-links"><a class="btn primary" href="https://7dsol3.github.io/konaet-music/">Abrir Music ↗</a><a class="source-link" href="https://github.com/7dsol3/konaet-music">Código ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-card-top"><span class="project-symbol rim mono" aria-hidden="true">.ko</span><span class="project-category">CONTRATOS / RUNTIME</span></div>
+            <h3>Konaet Soberana</h3><p>Escreva contratos .ko, execute no navegador e confira estado, assinaturas e recibos. A especificação acompanha as ferramentas e os testes.</p>
+            <div class="project-tags"><span>.ko Studio</span><span>VLOCK7SIN</span><span>Recibos</span></div>
+            <div class="project-links"><a class="btn" href="https://7dsol3.github.io/konaet-sovereign-spec/">Abrir .ko Studio ↗</a><a class="source-link" href="https://github.com/7dsol3/konaet-sovereign-spec">Código ↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-card-top"><span class="project-symbol rim" aria-hidden="true">◎</span><span class="project-category">JOGOS / COMPORTAMENTO</span></div>
+            <h3>Konaet Sentinel</h3><p>Sinais e regras organizam casos para revisão em servidores de jogos. A documentação mostra os critérios e os limites; o operador toma a decisão.</p>
+            <div class="project-tags"><span>Análise</span><span>Revisão</span><span>Provas abertas</span></div>
+            <div class="project-links"><a class="btn" href="https://7dsol3.github.io/konaet-sentinel/">Abrir Sentinel ↗</a><a class="source-link" href="https://github.com/7dsol3/konaet-sentinel">Código ↗</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="inside-section" id="por-dentro" aria-labelledby="inside-title">
+        <div><p class="eyebrow">OS DETALHES FICAM ABERTOS</p><h2 id="inside-title">Também tem o que<br>acontece por dentro.</h2><p>Interfaces são a entrada. Nos repositórios, você encontra a implementação, os experimentos e os resultados que sustentam cada projeto.</p></div>
+        <div class="evidence-list"><a href="https://github.com/7dsol3/konaet-music/blob/main/docs/SOUND-LAB.md"><span class="mono">01</span><span>Métodos do Sound Lab<small>Áudio, estimativas e limites do experimento</small></span><b>↗</b></a><a href="https://github.com/7dsol3/konaet-sovereign-spec/blob/main/KO-QUICKSTART.md"><span class="mono">02</span><span>Seu primeiro contrato .ko<small>Comandos, execução e recibos</small></span><b>↗</b></a><a href="https://7dsol3.github.io/konaet-sentinel/provas.html"><span class="mono">03</span><span>Provas do Sentinel<small>Critérios e evidências para inspeção</small></span><b>↗</b></a></div>
+      </section>
+
+      <section class="contact-section" id="contato"><div><p class="eyebrow">VAMOS CONVERSAR</p><h2>Tem uma ideia para construir?</h2></div><div class="contact-actions"><a class="btn primary" href="https://wa.me/message/43CXZJ7NW2FPDO">Falar sobre um projeto ↗</a><a class="btn" href="https://www.linkedin.com/in/adilson-oliveira-779490283/">LinkedIn ↗</a></div></section>
+    </main>
+    <footer><a href="https://github.com/7dsol3">7dsol3 / Adilson Oliveira</a><span>Visual adaptado do Prisma Pack.</span><a href="https://github.com/7dsol3/7dsol3">Código deste perfil ↗</a></footer>
+  </div>
+</body>
+</html>

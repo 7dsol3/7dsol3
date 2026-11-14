@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "controls": "PASS",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "controls": "PASS",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "controls": "PASS",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "controls": "PASS",
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "overflow": 0,
+      "controls": "PASS",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "overflow": 0,
+      "controls": "PASS",
+      "status": "PASS"
+    }
+  ],
+  "reduced_motion": "PASS",
+  "flows": [
+    "light_mode",
+    "edge_width",
+    "persistence",
+    "signature_toggle",
+    "reset",
+    "anchor_targets"
+  ]
+}
